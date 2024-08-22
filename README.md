@@ -18,5 +18,5 @@ Feature:
   
 -------------------------------------------- Other ---------------------------------------------
 
-Zauberer notification -> Es erschein eine große Chat-Nachricht wenn der Zauberer erschein ("/z" direkter tp).
-Afk Portal waiter     -> Wenn man in einem Portal im Portalraum steht, wird man ohne sich zu bewegen auf ein CB verbunden.
+- Zauberer notification -> Es erschein eine große Chat-Nachricht wenn der Zauberer erschein ("/z" direkter tp).
+- Afk Portal waiter     -> Wenn man in einem Portal im Portalraum steht, wird man ohne sich zu bewegen auf ein CB verbunden.
