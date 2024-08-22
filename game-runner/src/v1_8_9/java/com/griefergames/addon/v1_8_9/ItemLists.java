@@ -14,7 +14,7 @@ public class ItemLists {
     public static final Map<Item, List<ItemProperty>> ITEM_PROPERTIES = new HashMap<>();
 
     static {
-        // Beispiel für Skull
+        // prefixe
         ITEM_PROPERTIES.put(Items.skull, List.of(
             new ItemProperty("weißgraue farbe", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 1)),
             new ItemProperty("gelb-weiße farbe", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 1)),
@@ -125,57 +125,56 @@ public class ItemLists {
         ));
 
         ITEM_PROPERTIES.put(Items.nether_star, List.of(
-            new ItemProperty("community-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 0)), // Enchantment.SHARPNESS
-            new ItemProperty("community kiste", "Scam", Map.of(Enchantment.sharpness, 0)) // Enchantment.SHARPNESS
+            new ItemProperty("community-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 0)),
+            new ItemProperty("community kiste", "Scam", Map.of(Enchantment.sharpness, 0))
         ));
 
         ITEM_PROPERTIES.put(Item.getItemFromBlock(Blocks.ender_chest), List.of(
-            new ItemProperty("enderchest downgrade", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 0)), // Enchantment.SHARPNESS
-            new ItemProperty("enderchest upgrade", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 0)), // Enchantment.SHARPNESS
-            new ItemProperty("epische kiste", "von §aAbgegrieftHD", Map.of(Enchantment.unbreaking, 0)), // Enchantment.UNBREAKING
-            new ItemProperty("epische-kiste", "Scam", Map.of(Enchantment.unbreaking, 0)) // Enchantment.UNBREAKING
+            new ItemProperty("enderchest downgrade", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 0)),
+            new ItemProperty("enderchest upgrade", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 0)),
+            new ItemProperty("epische kiste", "von §aAbgegrieftHD", Map.of(Enchantment.unbreaking, 0)),
+            new ItemProperty("epische-kiste", "Scam", Map.of(Enchantment.unbreaking, 0))
         ));
 
         ITEM_PROPERTIES.put(Item.getItemFromBlock(Blocks.sapling), List.of(
-            new ItemProperty("spawn-gs", "Dieser Code schützt", Map.of(Enchantment.fortune, 100)) // Enchantment.FORTUNE
+            new ItemProperty("spawn-gs", "Dieser Code schützt", Map.of(Enchantment.fortune, 100))
         ));
 
         ITEM_PROPERTIES.put(Item.getItemFromBlock(Blocks.double_plant), List.of(
-            new ItemProperty("sommer-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.unbreaking, 0)) // Enchantment.FORTUNE
+            new ItemProperty("sommer-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.unbreaking, 0))
         ));
 
 
         ITEM_PROPERTIES.put(Item.getItemFromBlock(Blocks.chest), List.of(
-            new ItemProperty("vote-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.fortune, 0)), // Enchantment.FORTUNE
-            new ItemProperty("vote kiste", "Scam", Map.of(Enchantment.fortune, 0)) // Enchantment.FORTUNE
+            new ItemProperty("vote-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.fortune, 0)),
+            new ItemProperty("vote kiste", "Scam", Map.of(Enchantment.fortune, 0))
         ));
 
         ITEM_PROPERTIES.put(Item.getItemFromBlock(Blocks.end_portal_frame), List.of(
-            new ItemProperty("supreme-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.unbreaking, 0)), // Enchantment.UNBREAKING
-            new ItemProperty("supreme kiste", "Scam", Map.of(Enchantment.unbreaking, 0)), // Enchantment.UNBREAKING
-            new ItemProperty("mobiles caseopening", "für Zocker!", Map.of(Enchantment.fortune, 1)) // Enchantment.UNBREAKING
+            new ItemProperty("supreme-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.unbreaking, 0)),
+            new ItemProperty("supreme kiste", "Scam", Map.of(Enchantment.unbreaking, 0)),
+            new ItemProperty("mobiles caseopening", "für Zocker!", Map.of(Enchantment.fortune, 1))
         ));
 
         ITEM_PROPERTIES.put(Items.fire_charge, List.of(
-            new ItemProperty("bonze-booster", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 1)), // Enchantment.SHARPNESS
-            new ItemProperty("bonze booster", "scam", Map.of(Enchantment.sharpness, 1)) // Enchantment.SHARPNESS
- // Enchantment.SHARPNESS
+            new ItemProperty("bonze-booster", "von §aAbgegrieftHD", Map.of(Enchantment.sharpness, 1)),
+            new ItemProperty("bonze booster", "scam", Map.of(Enchantment.sharpness, 1))
         ));
 
         ITEM_PROPERTIES.put(Items.emerald, List.of(
-            new ItemProperty("money-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.infinity, 1)), // Enchantment.INFINITY
-            new ItemProperty("money kiste", "scam", Map.of(Enchantment.infinity, 1)) // Enchantment.INFINITY
+            new ItemProperty("money-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.infinity, 1)),
+            new ItemProperty("money kiste", "scam", Map.of(Enchantment.infinity, 1))
         ));
 
         ITEM_PROPERTIES.put(Item.getItemFromBlock(Blocks.slime_block), List.of(
-            new ItemProperty("frühlings-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.infinity, 0)), // Enchantment.INFINITY
-            new ItemProperty("frühlings kiste", "scam", Map.of(Enchantment.infinity, 0)) // Enchantment.INFINITY
+            new ItemProperty("frühlings-kiste", "von §aAbgegrieftHD", Map.of(Enchantment.infinity, 0)),
+            new ItemProperty("frühlings kiste", "scam", Map.of(Enchantment.infinity, 0))
         ));
 
         ITEM_PROPERTIES.put(Items.gold_ingot, List.of(
-            new ItemProperty("pay-all rechte", "von §aAbgegrieftHD", Map.of(Enchantment.infinity, 0)), // ??????????????????????????????????????
-            new ItemProperty("payall rechte", "scam", Map.of(Enchantment.infinity, 0)), // Enchantment.INFINITY
-            new ItemProperty("pay-all-rechte", "scam", Map.of(Enchantment.infinity, 0)) // Enchantment.INFINITY
+            new ItemProperty("pay-all rechte", "von §aAbgegrieftHD", Map.of(Enchantment.infinity, 0)),
+            new ItemProperty("payall rechte", "scam", Map.of(Enchantment.infinity, 0)),
+            new ItemProperty("pay-all-rechte", "scam", Map.of(Enchantment.infinity, 0))
         ));
 
         ITEM_PROPERTIES.put(Items.name_tag, List.of(

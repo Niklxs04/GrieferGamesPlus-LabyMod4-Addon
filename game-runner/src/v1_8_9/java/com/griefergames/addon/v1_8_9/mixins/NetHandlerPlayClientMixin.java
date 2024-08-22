@@ -27,7 +27,6 @@ public class NetHandlerPlayClientMixin {
     private Minecraft mc = Minecraft.getMinecraft();
     @Inject(method = "handleChat", at = @At("HEAD"))
     private void onChat(S02PacketChat packet, CallbackInfo ci) {
-        // Holen der Chat-Nachricht
         if(GrieferGamesAddon.getSharedInstance().configuration().getPublicTab().get() && GrieferGamesAddon.getSharedInstance().configuration().enabled().get()) {
 
             String message = packet.getChatComponent().getUnformattedText();
@@ -45,16 +44,12 @@ public class NetHandlerPlayClientMixin {
     }
 
     private String extractName(String message) {
-        // Suche nach den Trennzeichen ┃ und »
         int startIndex = message.indexOf('┃');
         int endIndex = message.indexOf('»');
-
-        // Prüfen, ob beide Trennzeichen gefunden wurden
         if (startIndex != -1 && endIndex != -1 && startIndex < endIndex) {
-            // Extrahiere den Text zwischen ┃ und »
             return message.substring(startIndex + 1, endIndex).trim();
         }
-        return null; // Name nicht gefunden
+        return null;
     }
 
 

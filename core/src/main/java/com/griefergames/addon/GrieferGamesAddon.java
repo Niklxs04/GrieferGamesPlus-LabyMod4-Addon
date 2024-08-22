@@ -3,11 +3,8 @@ package com.griefergames.addon;
 import com.griefergames.addon.commands.ZaubererCommand;
 import com.griefergames.addon.config.ggConfig;
 import com.griefergames.addon.listeners.ChatMessageListener;
-import com.griefergames.addon.listeners.ContainerListener;
 import com.griefergames.addon.listeners.IncChatListener;
-import com.griefergames.addon.listeners.ServerNavigationListener;
 import net.labymod.api.addon.LabyAddon;
-import net.labymod.api.client.entity.Entity;
 import net.labymod.api.models.addon.annotation.AddonMain;
 
 
@@ -19,15 +16,10 @@ public class GrieferGamesAddon extends LabyAddon<ggConfig> {
 
 
 
-
-
-
     @Override
     protected void enable() {
         this.registerSettingCategory();
-        registerListener(new ServerNavigationListener());
         registerListener(new ChatMessageListener());
-        registerListener(new ContainerListener());
         registerListener(new IncChatListener());
         registerCommand(new ZaubererCommand());
 

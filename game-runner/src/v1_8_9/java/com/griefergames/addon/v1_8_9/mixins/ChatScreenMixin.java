@@ -42,12 +42,11 @@ import static com.griefergames.addon.v1_8_9.EntityHolder.SUGGESTIONS;
 
 @Mixin(EntityPlayerSP.class)
 public class ChatScreenMixin {
-    private int delay = 0;  // Verzögerung
+    private int delay = 0;
     private Minecraft mc = Minecraft.getMinecraft();
     @Inject(method = "sendChatMessage", at = @At("HEAD"), cancellable = true)
     private void onSendChatMessage(String msg, CallbackInfo ci) {
 
-        //Eigene Commands:
         if (msg.equalsIgnoreCase("/sugclear")) {
             SUGGESTIONS.clear();
 

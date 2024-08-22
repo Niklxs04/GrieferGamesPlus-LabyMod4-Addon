@@ -135,20 +135,13 @@ public class ContainerMixin {
                     }
                 }
             }
-
         }
 
         if(stack != null && stack.getTagCompound() != null && GrieferGamesAddon.getSharedInstance().configuration().getZauberwaldSearch().get() && GrieferGamesAddon.getSharedInstance().configuration().enabled().get()){
             if(stack.getTagCompound().toString().contains("magicforest.item")){
                 highlightSlot(slot.xDisplayPosition, slot.yDisplayPosition, 0xFFB0C0FF);
             }
-
         }
-
-
-
-
-
     }
 
 

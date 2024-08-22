@@ -40,13 +40,6 @@ public class ChatMessageListener {
                 }
                 event.changeMessage(event.getMessage().replace(originalMatch, finalSum));
             }
-
-
-
-
-
-
-
         }
 
     }
