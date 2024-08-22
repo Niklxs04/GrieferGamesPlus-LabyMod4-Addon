@@ -14,9 +14,9 @@ Feature:
 -------------------------------------------- Chat ---------------------------------------------
 
 - Shorter Number      -> Große Zahlen kann man nun mit "k" -> Tausend und "m" -> Million abkürzen.
-- Global Tab          -> Von Globalen Nachrichten kann man den Author für 30 Sek. TABen
+- Global Tab          -> Von Globalen Nachrichten kann man den Author für 30 Sek. TABen.
   
 -------------------------------------------- Other ---------------------------------------------
 
-Zauberer notification -> Es erschein eine große Chat-Nachricht wenn der Zauberer erschein ("/z" direkter tp)
+Zauberer notification -> Es erschein eine große Chat-Nachricht wenn der Zauberer erschein ("/z" direkter tp).
 Afk Portal waiter     -> Wenn man in einem Portal im Portalraum steht, wird man ohne sich zu bewegen auf ein CB verbunden.
