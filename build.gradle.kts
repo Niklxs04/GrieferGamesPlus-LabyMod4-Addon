@@ -7,14 +7,18 @@ plugins {
 group = "org.example"
 version = System.getenv().getOrDefault("VERSION", "1.0.0")
 
+tasks.withType<JavaCompile>{
+    options.encoding = "UTF-8"
+}
+
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "com.griefergames.addon" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
-        minecraftVersion = "*"
+        namespace = "griefergames-plus"
+        displayName = "GrieferGamesPlus"
+        author = "Niklxs04"
+        description = "This addon makes playing on GrieferGames easier"
+        minecraftVersion = "1.8.9"
         version = getVersion().toString()
     }
 
@@ -60,6 +64,8 @@ subprojects {
         maven("https://repo.spongepowered.org/repository/maven-public/")
     }
 }
+
+
 
 fun configureRun(provider: net.labymod.gradle.core.minecraft.provider.VersionProvider, gameVersion: String) {
     provider.runConfiguration {

@@ -1,0 +1,83 @@
+{
+    "griefergames-plus": {
+        "settings": {
+            "enabled": {
+                "name": "Aktiviert",
+                "discription": "Aktiviert oder deaktiviert dieses Addon."
+            },
+            "header": {
+                "NoFakeItems": {
+                    "name": "Item Marker"
+                },
+                "Other": {
+                    "name": "Sonstiges"
+                },
+                "Chat": {
+                    "name": "Chat"
+                }
+            },
+            "NFsupgui": {
+                "name": "Keine Fake-Items",
+                "description": "Fake-Items werden automatisch erkannt und markiert.",
+                "color": {
+                    "name": "Marker-Farbe",
+                    "description": "Ändert die Farbe, mit der ein Item markiert wird."
+                },
+                "OnlyAH": {
+                    "name": "Nur im Auktionshaus",
+                    "description": "Markiert nur Items im Auktionshaus."
+                },
+                "FakeNames": {
+                    "name": "Anti-Fake-Namen",
+                    "description": "Markiert die meisten Items, die von Team-Fälschern signiert wurden."
+                }
+            },
+            "signSearch": {
+                "name": "Signaturen-Suche",
+                "description": "Markiert Items, die signiert wurden.",
+                "color": {
+                    "name": "Marker-Farbe",
+                    "description": "Ändert die Farbe, mit der ein Item markiert wird."
+                },
+                "Signenum": {
+                    "name": "Suchziel",
+                    "description": "Wähle aus, welche Signaturen markiert werden sollen."
+                },
+                "text": {
+                    "name": "Benutzerdefinierte Suche",
+                    "description": "Verwende „Signs_custom“, um nach einem beliebigen Namen zu suchen."
+                }
+            },
+            "ZauberwaldSearch": {
+                "name": "Zauberwald-Item-Markierung",
+                "description": "Markiert alle Items (blau), die du in den Zauberwald mitnehmen kannst."
+            },
+            "Zauberer": {
+                "name": "Bessere Zauberer-Benachrichtigung",
+                "description": "Wenn der Zauberer erscheint, wirst du besser im Chat informiert. Feature „/z“ -> direkt zum Zauberer teleportieren."
+            },
+            "AfkPortal": {
+                "name": "Afk-Portal-Warter",
+                "description": "Wenn du ein Portal im Portalraum betrittst, wirst du automatisch teleportiert, ohne dich bewegen zu müssen."
+            },
+            "ShorterNumber": {
+                "name": "Kürzere Zahlen",
+                "description": "Kürzt Zahlen mit „k“ -> Tausend und „m“ -> Millionen nach einer Zahl (bis zu 9,99 Mio.)."
+            },
+            "PublicTab": {
+                "name": "Globaler Tab",
+                "description": "Du kannst Spieler, die über den globalen Chat etwas geschrieben haben, für 30 Sekunden in deinem Chat TABen."
+            }
+        },
+        "zaubererCommand": {
+            "noZaubererfound": "§cKein Zauberer gefunden."
+        },
+        "ChatMessage": {
+            "Onlypoint": "§cVerwende einen §dPunkt §cfür Kommas."
+        },
+        "IncChat": {
+            "ZaubererErschienen": "                 §6§lDer Zauberer ist erschienen: §3",
+            "directTP": "                      §6§lVerwende §5/z §6§lfür direkten Teleport"
+        }
+    }
+}
