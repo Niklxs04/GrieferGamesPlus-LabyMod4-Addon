@@ -228,7 +228,7 @@ public class ItemLists {
             new ItemProperty("flugtrank", "fliegen", Map.of(Enchantment.fortune, 0))
         ));
 
-    //Sonstig
+    //Sonstig.
 
 
 
